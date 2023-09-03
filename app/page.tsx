@@ -1,6 +1,7 @@
 import { Carousel } from 'components/carousel';
 import { ThreeItemGrid } from 'components/grid/three-items';
 import Footer from 'components/layout/footer';
+import { MainDescription } from "../components/main-description";
 import { Suspense } from 'react';
 
 export const runtime = 'edge';
@@ -18,6 +19,11 @@ export default async function HomePage() {
       <ThreeItemGrid />
       <Suspense>
         <Carousel />
+          <div className="flex justify-center">
+              <div className="w-full max-w-3xl">
+                  <MainDescription />
+              </div>
+          </div>
         <Suspense>
           <Footer />
         </Suspense>
