@@ -66,8 +66,8 @@ export default async function ProductPage({ params }: { params: { handle: string
   const productJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Product',
-    name: product.title,
-    description: product.description,
+    name: product.seo.title,
+    description: product.seo.description,
     image: product.featuredImage.url,
     offers: {
       '@type': 'AggregateOffer',

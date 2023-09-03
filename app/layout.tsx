@@ -2,6 +2,7 @@ import Navbar from 'components/layout/navbar';
 import { ensureStartsWith } from 'lib/utils';
 import { Inter } from 'next/font/google';
 import { ReactNode, Suspense } from 'react';
+import {GoogleAnalytics} from "./google-analytics";
 import './globals.css';
 
 const { TWITTER_CREATOR, TWITTER_SITE, SITE_NAME } = process.env;
@@ -41,6 +42,10 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
   return (
     <html lang="en" className={inter.variable}>
       <body className="bg-neutral-50 text-black selection:bg-teal-300 dark:bg-neutral-900 dark:text-white dark:selection:bg-pink-500 dark:selection:text-white">
+      {process.env.GA_TRACKING_ID && (
+          <GoogleAnalytics GA_TRACKING_ID={process.env.GA_TRACKING_ID as string} />
+
+      )}
         <Navbar />
         <Suspense>
           <main>{children}</main>
