@@ -4,6 +4,8 @@ import FooterMenu from 'components/layout/footer-menu';
 import LogoSquare from 'components/logo-square';
 import { getMenu } from 'lib/shopify';
 import { Suspense } from 'react';
+import LogoIcon from "../icons/logo";
+import Instagram from "../icons/ınstagram";
 
 const { COMPANY_NAME, SITE_NAME } = process.env;
 
@@ -38,30 +40,41 @@ export default async function Footer() {
           <FooterMenu menu={menu} />
         </Suspense>
         <div className="md:ml-auto">
-          <a
-            className="flex h-8 w-max flex-none items-center justify-center rounded-md border border-neutral-200 bg-white text-xs text-black dark:border-neutral-700 dark:bg-black dark:text-white"
-            aria-label="Deploy on Vercel"
-            href="https://vercel.com/templates/next.js/nextjs-commerce"
-          >
-            <span className="px-3">▲</span>
-            <hr className="h-full border-r border-neutral-200 dark:border-neutral-700" />
-            <span className="px-3">Deploy</span>
-          </a>
+          <div className="col-span-1 lg:col-span-2 flex items-start lg:justify-end text-primary">
+            <div className="flex space-x-6 items-center h-10">
+              <Link
+                  className="text-black dark:text-white"
+                  aria-label="instagram YUKSELENSEPET"
+                  href="https://www.instagram.com/yukselensepet/"
+              >
+                <Instagram />
+              </Link>
+            </div>
+          </div>
+          {/*<a*/}
+          {/*  className="flex h-8 w-max flex-none items-center justify-center rounded-md border border-neutral-200 bg-white text-xs text-black dark:border-neutral-700 dark:bg-black dark:text-white"*/}
+          {/*  aria-label="Deploy on Vercel"*/}
+          {/*  href="https://vercel.com/templates/next.js/nextjs-commerce"*/}
+          {/*>*/}
+          {/*  <span className="px-3">▲</span>*/}
+          {/*  <hr className="h-full border-r border-neutral-200 dark:border-neutral-700" />*/}
+          {/*  <span className="px-3">Deploy</span>*/}
+          {/*</a>*/}
         </div>
       </div>
       <div className="border-t border-neutral-200 py-6 text-sm dark:border-neutral-700">
-        <div className="mx-auto flex w-full max-w-7xl flex-col items-center gap-1 px-4 md:flex-row md:gap-0 md:px-4 min-[1320px]:px-0">
+        <div className="mx-auto flex w-full max-w-7xl flex-col items-center gap-1 px-4 md:flex-row md:gap-0 md:px-4 xl:px-0">
           <p>
             &copy; {copyrightDate} {copyrightName}
-            {copyrightName.length && !copyrightName.endsWith('.') ? '.' : ''} All rights reserved.
+            {copyrightName.length && !copyrightName.endsWith('.') ? '.' : ''}
           </p>
           <hr className="mx-4 hidden h-4 w-[1px] border-l border-neutral-400 md:inline-block" />
-          <p>Designed in California</p>
+          {/*<p>Designed in California</p>*/}
           <p className="md:ml-auto">
             Crafted by{' '}
-            <a href="https://vercel.com" className="text-black dark:text-white">
-              ▲ Vercel
-            </a>
+            <Link href="https://www.burakozcan.tech/" className="">
+            <LogoIcon className="inline-block h-6 ml-3 text-primary" />
+            </Link>
           </p>
         </div>
       </div>

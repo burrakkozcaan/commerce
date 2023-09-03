@@ -18,9 +18,7 @@ export const metadata = {
   title: {
     default: `Düğün & Kına & Nikah ve Organizasyon Malzemeleri | ${SITE_NAME}`,
     template: `%s | ${SITE_NAME}`
-  },
-  description: 'En trend Düğün,Düğün Paketi, Çeyiz Paketi, Kına Malzemeleri, Nikah Malzemeleri, nişan organizasyon malzemeleri, Organizasyon hizmetleri ile unutulmaz bir düğün planlayın. Düğün organizasyonu malzemeleri ve Organizasyon malzemeleri toptan ile unutulmaz bir gün için  hayalinizdeki düğünü gerçekleştirin.',
-  alternates: {
+  },alternates: {
     canonical: `${baseUrl}`,
   }, keywords: [
     "Düğün Organizasyonu",
