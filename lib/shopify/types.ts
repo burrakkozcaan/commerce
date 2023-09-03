@@ -31,6 +31,7 @@ export type CartItem = {
 
 export type Collection = ShopifyCollection & {
   path: string;
+  descriptionHtml: string;
 };
 
 export type Image = {
@@ -106,6 +107,7 @@ export type ShopifyCollection = {
   description: string;
   seo: SEO;
   updatedAt: string;
+  descriptionHtml?: string;
 };
 
 export type ShopifyProduct = {
