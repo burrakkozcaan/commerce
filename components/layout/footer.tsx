@@ -8,6 +8,7 @@ import LogoIcon from "../icons/logo";
 import Instagram from "../icons/ınstagram";
 import Facebook from "../icons/facebook";
 import Twitter from "../icons/twitter";
+import Youtube from "../icons/youtube";
 
 const { COMPANY_NAME, SITE_NAME } = process.env;
 
@@ -64,6 +65,13 @@ export default async function Footer() {
                   href="https://www.facebook.com/Yukselensepets/"
               >
                 <Facebook />
+              </Link>
+              <Link
+                  className="text-black dark:text-white"
+                  aria-label="Youtube YUKSELENSEPET"
+                  href="https://www.youtube.com/@Yukselensepets"
+              >
+                <Youtube />
               </Link>
             </div>
           </div>
