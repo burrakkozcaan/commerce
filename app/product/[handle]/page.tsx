@@ -11,6 +11,10 @@ import { getProduct, getProductRecommendations } from 'lib/shopify';
 import { Image } from 'lib/shopify/types';
 import Link from 'next/link';
 
+
+const baseUrl = process.env.NEXT_PUBLIC_VERCEL_URL
+    ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}`
+    : 'http://localhost:3000';
 export const runtime = 'edge';
 
 export async function generateMetadata({
@@ -28,6 +32,9 @@ export async function generateMetadata({
   return {
     title: product.seo.title || product.title,
     description: product.seo.description || product.description,
+    alternates: {
+      canonical: `${baseUrl}/product/${product.handle}`
+    },
     robots: {
       index: indexable,
       follow: indexable,
