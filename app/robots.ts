@@ -1,5 +1,5 @@
-const baseUrl = process.env.NEXT_PUBLIC_VERCEL_URL
-  ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}`
+const baseUrl = process.env.NEXT_PUBLIC_VERCEL_URL_API
+  ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL_API}`
   : 'http://localhost:3000';
 
 export default function robots() {

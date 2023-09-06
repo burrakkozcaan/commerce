@@ -12,8 +12,8 @@ import { Image } from 'lib/shopify/types';
 import Link from 'next/link';
 
 
-const baseUrl = process.env.NEXT_PUBLIC_VERCEL_URL
-    ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}`
+const baseUrl = process.env.NEXT_PUBLIC_VERCEL_URL_API
+    ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL_API}`
     : 'http://localhost:3000';
 export const runtime = 'edge';
 
