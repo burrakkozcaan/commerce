@@ -45,7 +45,6 @@ export const metadata = {
     index: true
   },
   verification: {
-    yandex: "a4b9bb81698115cc",
     other: {
       "facebook-domain-verification": ['80j7zo1lpe907sexabj9rfqmdxo3k3']
     },

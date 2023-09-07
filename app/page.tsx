@@ -10,6 +10,9 @@ export const metadata = {
     description: 'En trend Düğün,Düğün Paketi, Çeyiz Paketi, Kına Malzemeleri, Nikah Malzemeleri, nişan organizasyon malzemeleri, Organizasyon hizmetleri ile unutulmaz bir düğün planlayın. Düğün organizasyonu malzemeleri ve Organizasyon malzemeleri toptan ile unutulmaz bir gün için  hayalinizdeki düğünü gerçekleştirin.',
   openGraph: {
     type: 'website'
+  },
+  verification: {
+    yandex: "a4b9bb81698115cc",
   }
 };
 
