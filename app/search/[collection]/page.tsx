@@ -27,8 +27,12 @@ export async function generateMetadata({
     alternates: {
       canonical: `${baseUrl}/search/${collection.handle}`
     },
+    authors: {
+        name: "Yukselensepets",
+    },
     keywords: collection.seo?.title || collection.title,
   };
+
 }
 
 export default async function CategoryPage({

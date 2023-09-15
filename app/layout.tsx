@@ -16,9 +16,10 @@ const twitterSite = TWITTER_SITE ? ensureStartsWith(TWITTER_SITE, 'https://') : 
 export const metadata = {
   metadataBase: new URL("https://www.yukselensepets.com/"),
   title: {
-    default: `Düğün & Kına & Nikah ve Organizasyon Malzemeleri | ${SITE_NAME}`,
+    default: `Düğün & Kına & Nikah ve Organizasyon Malzemeleri`,
     template: `%s | ${SITE_NAME}`
-  },alternates: {
+  },
+  alternates: {
     canonical: `${baseUrl}`,
   },
   authors: [
@@ -30,15 +31,20 @@ export const metadata = {
   keywords: [
     "Düğün Organizasyonu",
     "Organizasyon Malzemeleri",
-    "organizasyon malzemeleri toptan",
-    "sünnet organizasyonu",
-    "nişan organizasyon malzemeleri",
+    "Organizasyon Malzemeleri Toptan",
+    "Sünnet Organizasyonu",
+    "Nişan Organizasyon Malzemeleri",
     "Kına Malzemeleri",
     "Kına Gecesi Malzemeleri & Setleri",
-    "çeyiz setleri",
-    "düğün paketi",
-    "Nikah şekeri",
-    "Düğün & Kına & Nikah Malzemeleri"
+    "Çeyiz Setleri",
+    "Düğün Paketi",
+    "Nikah Şekeri",
+    "Düğün & Kına & Nikah Malzemeleri",
+    "Organizasyon Malzemeleri",
+    "Düğün Organizasyon Malzemeleri",
+    "Toptan Organizasyon Malzemeleri",
+    "Organizasyon Ekipmanları",
+    "Uygun Organizasyon Malzemeleri",
   ],
   robots: {
     follow: true,
@@ -73,7 +79,7 @@ const jsonLdArray = [
     "@type": "WebSite",
     "name":  "https://www.yukselensepets.com/",
     "url":"https://www.yukselensepets.com/",
-    "description": "En trend Düğün,Düğün Paketi, Çeyiz Paketi, Kına Malzemeleri, Nikah Malzemeleri, nişan organizasyon malzemeleri, Organizasyon hizmetleri ile unutulmaz bir düğün planlayın. Düğün organizasyonu malzemeleri ve Organizasyon malzemeleri toptan ile unutulmaz bir gün için hayalinizdeki düğünü gerçekleştirin.",
+    "description": "Düğün, Kına, Nikah ve Organizasyon malzemeleri çeşitlerini incele, Yukselensepet'de en özel indirimli fiyaları kaçımra!.",
     "potentialAction": {
       "@type": "SearchAction",
       "target": "https://www.yukselensepets.com/search{search_term_string}",
@@ -105,7 +111,7 @@ const jsonLdArray = [
     "name":  "https://www.yukselensepets.com/",
     "legalName":  "https://www.yukselensepets.com/",
     "url":"https://www.yukselensepets.com/",
-    "description": "En trend Düğün,Düğün Paketi, Çeyiz Paketi, Kına Malzemeleri, Nikah Malzemeleri, nişan organizasyon malzemeleri, Organizasyon hizmetleri ile unutulmaz bir düğün planlayın. Düğün organizasyonu malzemeleri ve Organizasyon malzemeleri toptan ile unutulmaz bir gün için hayalinizdeki düğünü gerçekleştirin.",
+    "description": "Düğün, Kına, Nikah ve Organizasyon malzemeleri çeşitlerini incele, Yukselensepet'de en özel indirimli fiyaları kaçımra!.",
     "logo": "https://res.cloudinary.com/daig2wsru/image/upload/v1693994708/Group_7_zebuga.png",
     "sameAs": [
       "https://www.facebook.com/Yukselensepets/",
@@ -117,7 +123,7 @@ const jsonLdArray = [
     "contactPoint": [
       {
         "@type": "ContactPoint",
-        "contactType": "Düğün,Düğün Paketi, Çeyiz Paketi, Kına Malzemeleri, Nikah Malzemeleri, nişan organizasyon malzemeleri, Organizasyon hizmetleri hakkında Desteğe ihtiyacınız mı var?",
+        "description": "Düğün, Kına, Nikah ve Organizasyon malzemeleri çeşitlerini incele, Yukselensepet'de en özel indirimli fiyaları kaçımra!.",
         "telephone": "+9035 647 17 99",
         "email": "ys@yukselensepets.com",
         "url": "https://www.yukselensepets.com/iletisim"
@@ -166,7 +172,7 @@ const jsonLdArray = [
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name":  "https://www.yukselensepets.com/",
-    "description": "En trend Düğün,Düğün Paketi, Çeyiz Paketi, Kına Malzemeleri, Nikah Malzemeleri, nişan organizasyon malzemeleri, Organizasyon hizmetleri ile unutulmaz bir düğün planlayın. Düğün organizasyonu malzemeleri ve Organizasyon malzemeleri toptan ile unutulmaz bir gün için hayalinizdeki düğünü gerçekleştirin.",
+    "description": "Düğün, Kına, Nikah ve Organizasyon malzemeleri çeşitlerini incele, Yukselensepet'de en özel indirimli fiyaları kaçımra!.",
     "url":"https://www.yukselensepets.com/",
     "telephone": "+9035 647 17 99",
     "email": "ys@yukselensepets.com",

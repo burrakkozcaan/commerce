@@ -19,7 +19,7 @@ const FooterMenuItem = ({ item }: { item: Menu }) => {
       <Link
         href={item.path}
         className={clsx(
-          'block p-2 text-lg underline-offset-4 hover:text-black hover:underline dark:hover:text-neutral-300 md:inline-block md:text-sm',
+          'block p-2 text-sm underline-offset-4 hover:text-black hover:underline dark:hover:text-neutral-300 md:inline-block md:text-sm',
           {
             'text-black dark:text-neutral-300': active
           }
@@ -41,6 +41,52 @@ export default function FooterMenu({ menu }: { menu: Menu[] }) {
           return <FooterMenuItem key={item.title} item={item} />;
         })}
       </ul>
+        <div><Link
+            href="https://www.yukselensepets.com/search/dugun-malzemeleri"
+            className={clsx(
+                'block p-2 text-xs underline-offset-4 hover:text-black hover:underline dark:hover:text-neutral-300 md:inline-block md:text-xs',
+            )}
+        >
+            Organizasyon Malzemeleri
+        </Link>
+
+            <Link
+                href="https://www.yukselensepets.com/search/dugun-malzemeleri"
+                className={clsx(
+                    'block p-2 text-xs underline-offset-4 hover:text-black hover:underline dark:hover:text-neutral-300 md:inline-block md:text-xs',
+                )}
+            >
+                Düğün Organizasyon Malzemeleri
+            </Link>
+            <Link
+                href="https://www.yukselensepets.com/search/dugun-malzemeleri"
+                className={clsx(
+                    'block p-2 text-xs underline-offset-4 hover:text-black hover:underline dark:hover:text-neutral-300 md:inline-block md:text-xs',
+                )}
+            >
+                Toptan Organizasyon Malzemeleri
+            </Link>
+
+            <Link
+                href="https://www.yukselensepets.com/search/dugun-malzemeleri"
+                className={clsx(
+                    'block p-2 text-xs underline-offset-4 hover:text-black hover:underline dark:hover:text-neutral-300 md:inline-block md:text-xs',
+                )}
+            >
+                Düğün Ekipmanları
+            </Link>
+
+            <Link
+                href="https://www.yukselensepets.com/search/dugun-malzemeleri"
+                className={clsx(
+                    'block p-2 text-xs underline-offset-4 hover:text-black hover:underline dark:hover:text-neutral-300 md:inline-block md:text-xs',
+                )}
+            >
+                Organizasyon Malzemeleri Toptan İstanbul
+            </Link>
+        </div>
     </nav>
+
+
   );
 }

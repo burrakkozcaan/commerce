@@ -27,6 +27,7 @@ export async function generateMetadata({
     alternates: {
       canonical: `${baseUrl}/${page.handle}`
     },
+    keywords: page.seo?.title || page.title,
     openGraph: {
       publishedTime: page.createdAt,
       modifiedTime: page.updatedAt,

@@ -28,33 +28,88 @@ export function MainDescription() {
         <>
             <div className="mb-6">
                 <Prose className={'text-sm leading-tight dark:text-white/[60%]'} html={'<meta charset="utf-8">\n' +
-                    '<h1>Düğün &amp; Kına &amp; Nikah Organizasyon Malzemeleri: Unutulmaz Anıların Anahtarı</h1>\n' +
-                    '<p><strong>Düğün &amp; Kına &amp; Nikah Organizasyon Malzemeleri - Yukselesepet</strong> - Düğün Organizasyonu, Organizasyon Malzemeleri, organizasyon malzemeleri toptan, sünnet organizasyonu, nişan organizasyon malzemeleri, Kına Malzemeleri | Kına Gecesi Malzemeleri & Setleri, çeyiz setleri, düğün paketi, Nikah şekeri, düğünlerin, kınaların ve nikah törenlerinin en özel anlarını taçlandıran unutulmaz etkinliklerdir. Bu makalede, Düğün & Kına & Nikah Malzemeleri ve Organizasyon konusunda derinlemesine bilgi ve püf noktalarını bulacaksınız. Sizleri, bu özel anları unutulmaz kılmak adına en iyi şekilde hazırlamaya davet ediyoruz..</p>\n' +
-                    ' <h2>Giriş - Hazırsan Başlıyoruz💃</h2>\n' + ' <p>Sevgili okuyucu, özel anılarımızı unutulmaz kılan detayların peşine düşmeye ne dersiniz? Bu makale, düğün, kına ve nikah gibi önemli etkinliklerin nasıl unutulmaz anılara dönüştüğünü ele alacak. Haydi, bu keyifli yolculuğa birlikte çıkalım ve bu özel anıları nasıl daha da özel kılacağınıza birlikte karar verelim.</p>\n\n' +
-                    '<h3>Düğün &amp; Kına &amp; Nikah Organizasyon Malzemeleri İncelikleri</h3>\n' +
-                    '<p><em>Düğün &amp; Kına &amp; Nikah Organizasyon Malzemeleri</em> ile ilgili her şeyi öğrenin: <a href="https://www.yukselensepets.com/search/dugun-organizasyonu-organizasyon-malzemeleri" target="_new">Organizasyon Malzemeleri</a>, <a href="https://www.yukselensepets.com/search/ceyiz-setleri-ceyiz-paketleri" target="_new">Çeyiz Setleri</a>, <a href="https://www.yukselensepets.com/search/nikah-sekeri" target="_new">Nikah Şekeri</a> gibi önemli detaylar hakkında püf noktalar....</p>\n' +
-                    '<h3>Düğün Organizasyonu: Büyük Günün Kusursuz Planı</h3>\n' +
-                    '<p>Bir düğünün başarısı, planlamanın mükemmelliğinde yatar. <strong>Düğün Organizasyonu</strong> adım adım nasıl yapılır? Konuk listesi oluşturma, mekan seçimi, catering hizmetleri ve daha fazlası. Büyük gününüzü unutulmaz kılmak için ihtiyacınız olan her şey burada.</p>\n' +
-                    '<h3>Organizasyon Malzemeleri Toplan: Etkinlik İçin Gereken Her Şey</h3>\n' +
-                    '<p>Etkinlik düzenlemek geniş bir yelpaze gerektirir. <strong>Organizasyon Malzemeleri toptan</strong> alarak hem bütçenizi koruyabilir hem de etkinliğinizi renklendirecek detayları yakalayabilirsiniz. Masa düzenlemelerinden süslemelere kadar her ayrıntıyı düşünmek için size ilham veriyoruz.</p>\n' +
-                    '<h3>Sünnet Organizasyonu: Gelenekleri Modern Dokunuşlarla Birleştirin</h3>\n' +
-                    '<p>Sünnet düğünleri, geleneklerin önemli bir parçasıdır. Ancak modern zamanlarda, sünnet organizasyonları da yenilikçi dokunuşlarla renklendiriliyor. En iyi <a href="https://www.yukselensepets.com/search/sunnet-susleri" target="_new">Sünnet süsleri ve sünnet organizasyonu</a>,nasıl planlanır? İşte unutulmaz bir sünnet düğünü için ipuçları.</p>\n' +
-                    '<h3>Nişan Organizasyon Malzemeleri: Aşkınızı Taçlandırın</h3>\n' +
-                    '<p>Nişan, sevgililerin birbirlerine olan bağlılığını taçlandıran bir törendir. <a href="https://www.yukselensepets.com/search/dugun-organizasyonu-organizasyon-malzemeleri" target="_new">Nişan Hediyelikleri ve organizasyon malzemeleri</a>, dekorasyondan hediyeliklere kadar her şeyi içerir. Nişanınızı unutulmaz kılmak için bu detayları nasıl planlamanız gerektiğini öğrenin.</p>\n' +
-                    '<h3>Kına Gecesi Malzemeleri &amp; Setleri: Eğlencenin Rengarenk Dünyası</h3>\n' +
-                    '<p>Kına gecesi, gelinin arkadaşlarıyla birlikte eğlenceli bir şekilde vakit geçirdiği özel bir gecedir.<a href="https://www.yukselensepets.com/search/kina-malzemeleri-kina-gecesi-malzemeleri-kina-setleri" target="_new">Kına Gecesi Malzemeleri &amp; Setleri</a> ile bu eğlenceyi renklendirmek mümkün. Kına gecesinin unutulmaz anıları için ihtiyacınız olan her şeyi burada bulacaksınız.</p>\n' +
-                    '<h3>Çeyiz Setleri: Yeni Hayata Adım Atarken</h3>\n' +
-                    '<p>Yeni evlenen çiftler için <a href="https://www.yukselensepets.com/search/ceyiz-setleri-ceyiz-paketleri" target="_new">Çeyiz Setleri</a>, evlerini donatmalarına yardımcı olur. Temel ev eşyalarından dekoratif detaylara kadar çeyiz setleriyle ilgili püf noktalarını ve önerileri bulabileceğiniz rehberimize göz atın.</p>\n' +
-                    '<h3>Düğün Paketi: Her Şey Dahil Mutluluk</h3>\n' +
-                    '<p><a href="https://www.yukselensepets.com/search/ceyiz-setleri-ceyiz-paketleri" target="_new">Düğün paketi</a> seçenekleri, düğün organizasyonunuzu daha kolay hale getirmek için tasarlanmıştır. Mekan, catering, dekorasyon gibi detayları tek bir pakette bulabilirsiniz. Düğününüzü planlarken bu pratik çözümleri göz önünde bulundurun.</p>\n' +
-                    '<h3>Nikah Şekeri: Hatıraları Tatlandırın</h3>\n' +
-                    '<p>Nikah törenleri, sevgililerin birbirlerine verdikleri önemli bir sözdür.<a href="https://www.yukselensepets.com/search/nikah-sekeri" target="_new">Nikah şekeri</a>, bu özel anı tatlandırmak için harika bir yol sunar. Nikah şekeri seçimi, anlamı ve alternatifleri hakkında daha fazla bilgi edinin.</p>\n' +
-                    '<h3>Hediyelik Eşya Çeşitleri</h3>\n' +
-                    '<p>Genellikle özel günlerde, doğum günleri, düğünler veya yıl dönümleri gibi kutlamalarda kullanılırlar bazı örnekler:.<a href="https://www.yukselensepets.com/search/hediyelik-esya" target="_new">Hediyelik eşya</a>,Hediyelik eşyaların birçok çeşidi vardır ve seçim yaparken dikkate alabileceğiniz birkaç kategori bulunmaktadır.</p>\n' +
-                    '<h2>Özet: Düğün &amp; Kına &amp; Nikah Malzemeleri ve Organizasyon</h2>\n' +
-                    '<p>Düğün, kına ve nikah gibi özel etkinlikler, hayatın en güzel anlarından birkaçını oluşturur. <strong>Düğün &amp; Kına &amp; Nikah Malzemeleri ve Organizasyon</strong> ile ilgili her ayrıntıyı öğrenerek bu anları unutulmaz kılabilirsiniz. Organizasyon malzemelerinden çeyiz setlerine, nikah şekerinden düğün paketlerine kadar ihtiyacınız olan her şeyi bulabileceğiniz bu rehberle, özel anlarınızı planlarken daha fazla güven ve bilgi sahibi olacaksınız.</p>\n' +
-                    '<p><strong>İçerikler:</strong> <a href="https://www.yukselensepets.com/search/dugun-organizasyonu-organizasyon-malzemeleri" target="_new">Organizasyon Malzemeleri</a>, <a href="https://www.yukselensepets.com/search/kina-malzemeleri-kina-gecesi-malzemeleri-kina-setleri" target="_new">Kına Gecesi Malzemeleri</a>, <a href="https://www.yukselensepets.com/search/ceyiz-setleri-ceyiz-paketleri" target="_new">Çeyiz Setleri</a>, <a href="https://www.yukselensepets.com/search/nikah-sekeri" target="_new">Nikah Şekeri</a></p>\n'} />
+                    '<h1>Düğün, Kına, Nikah ve Organizasyon Malzemeleri</h1>\n' +
+                    '<p>Düğün, kına, nikah ve organizasyonları için gerekli malzemeleri ve fiyatlarını Yukselensepet\'te bulabilirsiniz. Bu makalede, organizasyon detayları ve hazırlıkları hakkında detaylı bilgileri bulacaksınız.</p>\n' +
+
+                    '<h2>Kına Gecesi Hazırlıkları💃</h2>\n' +
+                    '<p>Kına gecesi, gelinin baba evinde geçirdiği son geceyi geleneksel bir şekilde kutladığımız, eğlenceli ve duygusal bir gecedir. Bu özel gece, gelin adayı için büyük bir anlam taşır. Geleneklerimize ve göreneklere dayanan bu ritüel, evliliğe giden yolda atılan önemli adımlardan birini simgeler. Bu nedenle gelinler, kına gecesini özel ve unutulmaz kılmak isterler.</p>\n' +
+
+                    '<h3>Kına Gecesi Malzemeleri</h3>\n' +
+                    '<p><strong><em>Kına Gecesi</em></strong>, geleneklerimizin önemli bir parçası olan unutulmaz bir geceyi ifade eder. Bu gece, gelin ve damadın aşklarını daim kıldığı, mutluluklarını sonsuzlaştırdığı bir ritüeldir. Kına gecesi için hazırlıklar oldukça titizlikle yapılır. İşte kına gecesi malzemeleri ve detayları: <strong>Kına:</strong> Kına gecesinin vazgeçilmezi olan kına, hem gelin hem de damadın ellerine yakılır ve misafirlere dağıtılır. Kaliteli bir kına tercih edilmelidir.<strong>Kına Testisi:</strong> Kına testisi, geleneksel olarak kırılarak kullanılan ve bolluk bereket simgesi olan bir malzemedir.Gelin Duvağı ve Damat Omuz Örtüsü: Gelin duvağı, gelinin yüzünü kına yakılırken örtmek için kullanılır. Damat omuz örtüsü ise yeşil renkte ve ay yıldız motiflidir.  <strong>Kına Kasesi ve Sepeti:</strong> Kına kasesi ve sepeti, kınanın sunumu için kullanılır ve farklı tasarımlara sahiptir.Kına Kesesi: Kınayı misafirlere dağıtmak için kullanılan keseler, işlemeli ve şık modellerle tercih edilir.<strong>Kına Mumları:</strong> Kına gecesi eğlencesine katkı sağlayan kına mumları, pilli olarak da bulunabilir.Kına Süslemeleri: Kına gecesi için tüller, çiçekler, mumlar ve yazılı pankartlar gibi süslemeler kullanılabilir.<strong>Tef ve Halay Mendili:</strong> Kına gecesinde ritim tutmak ve eğlenceli zaman geçirmek için kullanılır.<strong>Kına Çerezleri:</strong> Misafirlere ikram edilen kına çerezleri geleneksel bir uygulamadır. Çerezlerin taze ve hijyenik olmasına dikkat edilmelidir.<strong>Nedime Tacı ve Bilekliği:</strong> Nedimeler için özel aksesuarlar, birlik ve bütünlük sağlar.Tahta Kaşıklar: Oyun havaları sırasında kullanılan tahta kaşıklar, eğlenceye renk katar.</p>\n' +
+
+                    '<h3>Nikah ve Düğün Organizasyonu Malzemeleri</h3>\n' +
+                    '<p>Nikah ve düğün organizasyonları, sevdiklerinizle paylaşacağınız unutulmaz anlarla dolu özel günlerdir. Bu anları daha da özel kılmak için gereken organizasyon malzemelerini düşünmek önemlidir. İşte nikah ve düğün organizasyonu için gereken malzemeler:\n' +
+                    'Davetiyeler: Davetiyeler, organizasyonunuzu duyurmanın başlangıcıdır. Davetiyelerinizi önceden hazırlayarak davetlilere zamanında ulaştırabilirsiniz.\n' +
+                    'Nikah Şekerleri: Nikah şekerleri, misafirlere dağıtılan tatlı jestlerdir. Türlü şekil ve modellerde tasarlanan nikah şekerleri, misafirlere teşekkür etmenin güzel bir yoludur.\n' +
+                    'Nikah ve Düğün Süslemeleri: Organizasyon mekanınızı süslemek, atmosferi daha özel hale getirir. Tül perdeler, aydınlatmalar ve çiçeklerle mekanı süsleyebilirsiniz.\n' +
+                    'Gelinlik ve Damatlık: Nikah ve düğünün en önemli detaylarından biri gelinlik ve damatlıktır. Tarzınıza uygun gelinlik ve damatlık seçmek özel gününüzü tamamlar.\n' +
+                    'Nikah Yüzüğü: Nikahın sembolü olan yüzükler, özenle seçilmelidir. İsme özel yüzükler tercih edebilirsiniz.\n' +
+                    'Nikah Mekanı: Nikah töreniniz için uygun bir mekan seçmelisiniz. Açık hava veya kapalı mekan seçenekleri düşünülebilir.\n' +
+                    'Organizasyon Müziği: Nikah töreninize uygun müzikler seçmek, atmosferi daha da özel kılar.\n' +
+                    'Düğün Pastası: Düğün pastası, organizasyonun tatlı anlarını simgeler. Tarzınıza uygun bir pasta seçebilirsiniz.\n' +
+                    'Nikah ve Düğün Fotoğrafçısı: Özel gününüzü ölümsüzleştirmek için profesyonel bir fotoğrafçı seçmelisiniz.\n' +
+                    'Misafir Hediyeleri: Misafirlerinize teşekkür etmek için hediye seçmek güzel bir jest olabilir. Nikah şekerleri gibi küçük hediyeler düşünebilirsiniz.</p>\n' +
+
+                    '<h3>Düğün Organizasyon Malzemeleri ve Organizasyon</h3>\n' +
+                    '<p>Düğün organizasyonları, çiftlerin hayatlarını birleştirdikleri özel günlerdir. Bu etkinlikler, romantik bir şekilde evlenme kararlarını kutladıkları anlardır. Aile ve arkadaşlarla paylaşılan bu özel gün, sevgilerini taçlandırır. Düğün organizasyonlarının başarılı olabilmesi için organizasyon malzemeleri büyük önem taşır. Bu malzemeler, düğünü daha eğlenceli ve unutulmaz kılmak için kullanılır.\n' +
+                    'Organizasyon malzemeleri, kaliteli ve özenle seçilmelidir. İyi seçilmiş malzemeler, düğünü unutulmaz bir deneyim haline getirir ve konukları etkiler. Her ayrıntının düşünüldüğü bir düğün organizasyonu, çiftlerin ömür boyu hatırlayacağı bir gün olur.</p>\n' +
+
+                    '<h4>Düğün Ekipmanları</h4>\n' +
+                    '<p>Düğün organizasyonlarınız için gerekli olan tüm ekipmanları burada bulabilirsiniz. Masa sandalye kiralama, ses ve ışık sistemleri gibi detayları düşünmeye gerek kalmadan unutulmaz bir düğün deneyimi yaşayabilirsiniz.</p>\n' +
+
+                    '<h4>Organizasyon Malzemeleri Toptan</h4>\n' +
+                    '<p>Düğün organizasyonlarınız için toptan organizasyon malzemeleri burada! Tema renklerinize uygun dekorasyonlar, masa düzenlemeleri ve daha fazlasını bulabilirsiniz.</p>\n' +
+
+                    '<h4>Düğün Malzemeleri</h4>\n' +
+
+                    '<h4>Kına Gecesi Malzemeleri Fiyatı</h4>\n' +
+                    '<p>Kına gecesi malzemelerinin fiyatları ürün ve kaliteye göre değişir.</p>\n' +
+
+                    '<h4>Düğün Malzemeleri Nelerdir</h4>\n' +
+                    '<p>Düğün davetiyeleri, gelinlik, damatlık, yüzükler, masa düzenlemeleri, nikah şekerleri gibi malzemeler düğünün temel malzemelerindendir.</p>\n' +
+
+                    '<h4>Düğün Malzemeleri Listesi</h4>\n' +
+                    '<p>Düğün organizasyonu için masa sandalye, ses sistemleri, dekorasyon ürünleri, masa düzenlemeleri, nikah şekerleri gibi malzemeler gerekebilir.</p>\n' +
+
+                    '<h4>Düğüne Yakın Yapılması Gerekenler</h4>\n' +
+                    '<p>Düğünden önce davetlilerin onayı, organizasyonun son kontrolleri ve gelinlik ya da damatlığın son prova gibi son hazırlıklar yapılmalıdır.</p>\n' +
+
+                    '<h4>Düğün Malzemeleri Toptan</h4>\n' +
+                    '<p>Düğün malzemelerini toptan alarak bütçenizi daha iyi yönetebilirsiniz.</p>\n' +
+
+                    '<h4>Organizasyon Malzemeleri Nelerdir</h4>\n' +
+
+                    '<h4>Düğün Organizasyon Malzemeleri Listesi</h4>' +
+                    '<p>Düğün organizasyon malzemeleri, masalar, sandalyeler, masa örtüleri, çeşitli dekorasyon ürünleri ve ses sistemleri gibi detayları içerir.</p>' +
+
+                    '<h4>Organizasyon Malzemeleri Isimleri</h4>' +
+                    '<p>Organizasyon malzemeleri arasında masa, sandalye, masa örtüsü, ses sistemi, projeksiyon cihazı, süslemeler gibi birçok farklı ekipman bulunabilir.</p>' +
+
+                    '<h4>Kına Nasıl Yapılır Ve Malzemeleri</h4>' +
+                    '<p>Kına gecesi için öncelikle kına malzemeleri temin edilir. Daha sonra gelin adayının ellerine kına yakma işlemi yapılır.</p>' +
+
+                    '<h4>Kına Malzemeleri Nasıl</h4>' +
+                    '<p>Kına malzemeleri arasında kınadan önce kullanılan taslar, mumlar, kına tepsisi ve kına şekeri gibi ürünler bulunur.</p>' +
+
+                    '<h4>Organizasyon Malzemeleri</h4>\n' +
+                    '<p>Organizasyon malzemeleri, etkinliklerde kullanılan masa, sandalye, ses sistemi, ışıklandırma gibi ekipmanları içerir.</p>\n' +
+
+                    '<h4>Düğün Organizasyon Malzemeleri</h4>\n' +
+                    '<p>Düğün organizasyon malzemeleri, düğün mekanının dekorasyonu için gerekli olan masa, sandalye, çiçekler, masa örtüleri ve daha fazlasını içerir.</p>\n' +
+
+                    '<h4>Organizasyon Malzemeleri Toptan</h4>\n' +
+                    '<p>Organizasyon malzemelerini toptan satın alarak hem maliyetlerinizi düşürebilir hem de büyük etkinlikler için gereken ekipmanları temin edebilirsiniz.</p>\n' +
+
+                    '<h4>Düğün Ekipmanları</h4>\n' +
+                    '<p>Düğün ekipmanları, düğün organizasyonlarında kullanılan masa, sandalye, masa örtüsü, çiçekler ve dekorasyon ürünleri gibi malzemeleri içerir.</p>\n' +
+
+                    '<h4>Düğün Ekipmanları Toptan</h4>\n' +
+                    '<p>Düğün ekipmanlarını toptan satın alarak, büyük düğün organizasyonları için gerekli olan malzemeleri uygun fiyatlarla temin edebilirsiniz.</p>\n' +
+
+                    '<p> Organizasyon malzemeleri masa sandalye kiralama, ses ve ışık sistemleri, dekorasyon ürünleri gibi organizasyonlarda kullanılan ekipmanları içerir.</p>\n' +
+                    '<p><strong>Daha fazla bilgi:</strong> veya yardım için iletişime geçmek isterseniz, Yukselensepet ekibi olarak sizlere yardımcı olmaktan mutluluk duyarız. Sağlıklı ve huzurlu alışverişler dileriz!</p>'} />
             </div>
+
         </>
     );
 }
